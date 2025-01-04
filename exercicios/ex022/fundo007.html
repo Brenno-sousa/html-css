@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Alinhamento vetical</title>
+   <style>
+      #container {
+         position: relative;
+         height: 500px;
+         padding: 10px;
+         background: rgba(245, 81, 60, 0.925) url('imagens/target001.png') no-repeat;
+         background-size: 100% 100% ;
+      }
+      #conteudo {
+         background: rgb(224, 176, 116) url('imagens/target001.png') no-repeat;
+         position: absolute;
+         height: 300px;
+         width: 400px;
+         background-size: 100% 100%;
+
+         left: 50%;
+         top: 50%;
+
+         transform: translate(-50%, -50%);
+      }
+   </style>
+</head>
+<body>
+   <section id="container">
+      <article id="conteudo">
+         
+      </article>
+   </section>
+</body>
+</html>
